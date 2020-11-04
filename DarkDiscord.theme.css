@@ -1,0 +1,272 @@
+@import url(https://raw.githack.com/ventris-x/dark-discord/main/src/source.css);
+
+.theme-dark,
+.theme-light,
+:root {
+  --background-primary: #101010 !important;
+  --background-secondary: #0d0d0d !important;
+  --background-secondary-alt: #202020 !important;
+  --background-tertiary: #090909 !important;
+  --background-accent: #1c1c1c !important;
+
+  --background-floating: black !important;
+  --background-modifier-hover: rgba(255, 255, 255, 0.01) !important;
+  --background-modifier-active: rgba(255, 255, 255, 0.03) !important;
+  --background-modifier-selected: rgba(255, 255, 255, 0.04) !important;
+  --background-modifier-accent: hsla(0, 0%, 100%, 0.06) !important;
+  --channeltextarea-background: var(--background-accent) !important;
+  --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
+  --deprecated-card-editable-bg: rgba(0, 0, 0, 0.1) !important;
+  --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
+  --activity-card-background: var(--background-primary) !important;
+  --channels-default: #9f9f9f !important;
+  --text-muted: #b6b6b6 !important;
+  --text-normal: #fbfbfb !important;
+  --interactive-normal: #c8c8c8 !important;
+  --interactive-hover: #dcddde !important;
+  --interactive-active: #fff !important;
+  --interactive-muted: #747474 !important;
+  --header-secondary: #c9c9c9 !important;
+  --toast-background: var(--background-primary) !important;
+  --toast-header: var(--background-tertiary) !important;
+  --toast-contents: var(--background-secondary) !important;
+  --toast-box-shadow: rgba(0, 0, 0, 0.2) !important;
+  --toast-border: var(--background-tertiary) !important;
+  --offline-color: rgb(60, 60, 60) !important;
+}
+
+/* view roles */
+.notice-1tZwqv {
+  background-color: var(--background-tertiary);
+}
+
+/* no phone settings */ 
+.marginBottom40-2vIwTv.marginTop40-i-78cZ {
+	display:none
+}
+
+/* custom playing activities */
+#app-mount .headerPlaying-j0WQBV,
+.header-2BwW8b,
+.headerStreaming-2FjmGz,
+.topSectionSpotify-1lI0-P,
+.topSectionPlaying-1J5E4n,
+.topSectionStreaming-1Tpf5X {
+  background: var(--background-tertiary) !important;
+}
+#app-mount .headerSpotify-zpWxgT,
+.topSectionPlaying-1J5E4n,
+.profileBadgeWrapper-rl_RO6 {
+  background: var(--background-tertiary) !important;
+}
+
+/* hover fix */
+
+.theme-dark .selected-1Tbx07 {
+    background-color: var(--background-modifier-active);
+}
+
+/* no nitro banners */
+
+.hero-EvfTTA, .featuresHeader-4YwLcc, .featureGrid-3-fNl-,
+.promotionBanner-1fCSab, .banner-WELp4M, .marketingRefreshTier2Cta-bw9Vyc,
+.marketingRefreshSectionTier1-dRwS-6, .colorMuted-HdFt4q {
+	display:none
+}
+.sectionAccountCredit-1uNhnJ {
+	border-bottom: 0px
+}
+
+
+/* no profile notes */
+.userInfoSection-2acyCx + .userInfoSection-2acyCx {
+  border: 0px;
+}
+div.userInfoSection-2acyCx {
+  padding: 8px 0px;
+}
+.userInfoSectionHeader-CBvMDh {
+  display: none;
+}
+.note-QfFU8y {
+  display: none;
+}
+
+/* no message tts */
+.item-1tOPte {
+  margin: 0;
+}
+#message-actions-tts,
+#message-tts {
+  display: none;
+}
+
+/* Badge Colors With Activity */
+.buttonInvertedPurple-WtBglX {
+  background-color: #43b581;
+  color: white;
+}
+.lookInverted-2D7oAl.colorGreen-29iAKY {
+  background-color: #43b581;
+  color: white;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+  background-color: #43b581;
+  color: white;
+}
+.profileBadge-2BqF-Z.profileBadgeStaff-13GO7z {
+  background-image: url(/assets/4358ad1fb423b346324516453750f569.svg);
+}
+.profileBadge-2BqF-Z.profileBadgePartner-SjK6L2 {
+  background-image: url(/assets/6203964d9d25c394a573fd4f6be36d97.svg);
+}
+.profileBadge-2BqF-Z.profileBadgeHypesquad-1YIe7Z {
+  background-image: url(/assets/6c73f47daf179ffade99f501bfc5101b.svg);
+}
+.profileBadge-2BqF-Z.profileBadgeHypeSquadOnlineHouse1-xN6tES {
+  background-image: url(/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg);
+}
+.profileBadge-2BqF-Z.profileBadgeHypeSquadOnlineHouse2-3jBpXR {
+  background-image: url(/assets/48cf0556d93901c8cb16317be2436523.svg);
+}
+.profileBadge-2BqF-Z.profileBadgeHypeSquadOnlineHouse3-1YbjMX {
+  background-image: url(/assets/9fdc63ef8a3cc1617c7586286c34e4f1.svg);
+}
+.profileBadge-2BqF-Z.profileBadgeHypeSquadOnlineHouse1Winner-3OGyO6 {
+  background-image: url(/assets/26a2dc8c9d70955a988cb377eec84c22.svg);
+}
+.profileBadge-2BqF-Z.profileBadgeHypeSquadOnlineHouse2Winner-3GW5Sm {
+  background-image: url(/assets/88d4f11bee9ea34fee59973b33353da0.svg);
+}
+.profileBadge-2BqF-Z.profileBadgeHypeSquadOnlineHouse3Winner-2iVu11 {
+  background-image: url(/assets/3245b2cd85b787b195ea8f6e10ef5790.svg);
+}
+.profileBadge-2BqF-Z.profileBadgeVerifiedDeveloper-4WY75k {
+  background-image: url(/assets/45cd06af582dcd3c6b79370b4e3630de.svg);
+}
+.profileBadge-2BqF-Z.profileBadgeEarlySupporter-PQB_0a {
+  background-image: url(/assets/23e59d799436a73c024819f84ea0b627.svg);
+}
+.profileBadge-2BqF-Z.profileBadgePremium-3kZ9Qj {
+  background-image: url(/assets/386884eecd36164487505ddfbac35a9d.svg);
+}
+.profileBadge-2BqF-Z.profileBadgeBugHunterLevel1-3oBv8Z {
+  background-image: url(/assets/f61b8981e92feead854f52e5a1ba14f0.svg);
+}
+.profileBadge-2BqF-Z.profileBadgeBugHunterLevel2-3tFzet {
+  background-image: url(/assets/9286332d6e947c91fa91569efce431b0.svg);
+}
+.profileBadge-2BqF-Z.profileGuildSubscriberlvl1-pKd1EZ {
+  background-image: url(/assets/fbb6f1e160280f0e9aeb5d7c452eefe1.svg);
+}
+.profileBadge-2BqF-Z.profileGuildSubscriberlvl2-1aIFve {
+  background-image: url(/assets/b4b741bef6c3de9b29e2e0653e294620.svg);
+}
+.profileBadge-2BqF-Z.profileGuildSubscriberlvl3-33AROf {
+  background-image: url(/assets/93f5a393e22796a850931483166d7cb9.svg);
+}
+.profileBadge-2BqF-Z.profileGuildSubscriberlvl4-2yY8EG {
+  background-image: url(/assets/4c380650960c2b1e1584115d5e9ad63b.svg);
+}
+.profileBadge-2BqF-Z.profileGuildSubscriberlvl5-1mIKQ8 {
+  background-image: url(/assets/438dd7ecbffcf21b6cbf2773ade51a04.svg);
+}
+.profileBadge-2BqF-Z.profileGuildSubscriberlvl6-2tCBLE {
+  background-image: url(/assets/7a5f78de816fcecbbd1d5d6e635cc7dd.svg);
+}
+.profileBadge-2BqF-Z.profileGuildSubscriberlvl7-3M0RQX {
+  background-image: url(/assets/5a24b20b84fb3eafc138916729386e76.svg);
+}
+.profileBadge-2BqF-Z.profileGuildSubscriberlvl8-2ot52H {
+  background-image: url(/assets/f31d590e1f3629cd0b614330f4a8ee2a.svg);
+}
+.profileBadge-2BqF-Z.profileGuildSubscriberlvl9-1qrrRa {
+  background-image: url(/assets/9ba64f1fa91ccde0eba506c1c33f3d1a.svg);
+}
+
+rect[mask='url(#svg-mask-status-dnd)'] {
+  fill: #f04747;
+}
+rect[mask^='url(#svg-mask-status-online'] {
+  fill: #43b581;
+}
+rect[mask='url(#svg-mask-status-idle)'] {
+  fill: #faa61a;
+}
+rect[mask='url(#svg-mask-status-streaming)'] {
+  fill: #593695;
+}
+
+/* Minimalistic Status Picker */
+#status-picker .description-2L932D,
+#status-picker .separator-2I32lJ  {
+  display: none;
+}
+
+/* text background fix */
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+	background-color: #0d0d0d;
+}
+
+/* Server Join -sampleLink */
+.sampleLink-2NLvZg,
+.formTitle-aeXUoN {
+  display: none;
+}
+.title-3w8xhj,
+.title-XLSR78 {
+  color: var(--text-normal);
+}
+.input-2VB9rf {
+  background-color: var(--channeltextarea-background) !important;
+}
+
+/* Hidden Phone Number */
+.userSettingsSecurity-3IYeMF .flexChild-faoVW3 div:nth-child(3) .children-rWhLdy .colorStandard-2KCXvj:nth-child(2) {
+  display: none;
+}
+.userSettingsSecurity-3IYeMF .flexChild-faoVW3 div:nth-child(3) .children-rWhLdy .flex-1xMQg5 button {
+  margin-top: 10px;
+}
+
+/* Spotify */
+.powercord-spotify .spotify-seek-bar {
+  background: var(--background-modifier-accent);
+  height: 1px !important;
+}
+.powercord-spotify.hover .spotify-seek:not(.no-premium) .spotify-seek-bar {
+  height: 4px !important;
+}
+html:not(#\20) .powercord-spotify,
+html:not(#\20) #powercord-spotify-menu {
+  --gradient: linear-gradient(120deg, #ff0000, #7641d5) !important;
+}
+html:not(#\20) #powercord-spotify-menu .barFill-23-gu-,
+html:not(#\20) .powercord-spotify .spotify-seek-bar-progress,
+html:not(#\20) #powercord-spotify-menu .colorDefault-2K3EoJ.focused-3afm-j {
+  background-image: var(--gradient) !important;
+}
+html:not(#\20) .powercord-spotify .spotify-buttons button .contents-18-Yxp .fas,
+html:not(#\20) .powercord-spotify .spotify-extra-controls .active,
+html:not(#\20) #powercord-spotify-menu .disabled-1WRMNA[id^='powercord-spotify-menu-devices--'],
+html:not(#\20) #powercord-spotify-menu #powercord-spotify-menu-repeat + div [id*='-active'] {
+  color: transparent !important;
+  background-image: var(--gradient) !important;
+  -webkit-background-clip: text !important;
+  padding-top: 0.2em !important;
+  margin-top: -0.2em !important;
+}
+html:not(#\20) .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
+  color: white !important;
+}
+html:not(#\20) #powercord-spotify-menu .colorDefault-2K3EoJ .checkbox-3s5GYZ {
+  color: transparent !important;
+}
+
+/* switch fix */
+.container-3auIfb[style*="background-color: rgb(114, 118, 125);"] {
+  background-color: var(--background-accent) !important;
+}
+
+
+
